@@ -12,6 +12,10 @@ body{
     border: 0;
 }
 
+.navbar-default{
+    background-color: #e3f2fd;
+}
+
 .navbar-default .navbar-nav>.active>a{
     background-color: transparent;
 }
