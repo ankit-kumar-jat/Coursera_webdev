@@ -7,6 +7,11 @@ body{
     color: black;
 }
 
+#header-nav {
+    border-radius: 0;
+    border: 0;
+}
+
 p{
     font-size: .25em;
 }
@@ -37,7 +42,18 @@ h2{
     margin-bottom: 0;
 }
 
+/*
 .active a h2:hover, h2:focus{
+    color: #330ac0;
+}
+*/
+
+.active a{
+    font-size: .4em;
+}
+
+#nav-list .active a:hover{
+    background-color: gray;
     color: #330ac0;
 }
 
