@@ -11,7 +11,7 @@ p{
     font-size: .25em;
 }
 
-.container > h2{
+.container-fluid > h2{
     margin-bottom: 30px;
     color: #337ab7;
 }
