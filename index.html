@@ -1,34 +1,72 @@
-<!DockType HtMl>
+<!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Bootstrap Example</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Assignment Solution For Module 2</title>
+        <link href='https://fonts.googleapis.com/css?family=Pangolin' rel='stylesheet'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
         <header>
-            <h1>Our Menu</h1>
+            <nav id="header-nav" class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <div class="navbar-brand">
+                            <a href="index.html"><h1>Food, LCC</h1></a>
+                        </div>
+                        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right visible-xs">
+                            <li class="active text-center"><a href="#chicken"><h2>Chicken</h2></a></li>
+                            <li class="active text-center"><a href="#beef"><h2>Beef</h2></a></li>
+                            <li class="active text-center"><a href="#sushi"><h2>Sushi</h2></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
-        <div class="container">
-            <div class="col-bg-4 col-bg-6">
-                <div class="box">
-                    <h4 class="ineer_box el_1">Chicken</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        <div class="container-fluid text-center">
+            <h2>Our Menu</h2>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="panel panel-default" id="chicken">
+                        <div class="text-center">
+                            <h3>Chicken</h3>
+                        </div>
+                        <p class="panel-body">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+                        <p>(End of Chicken section)<a href="#">Back to top</a></p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-bg-4 col-bg-6">
-                <div class="box ">
-                    <h4 class="ineer_box el_2">Beef</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="panel panel-default" id="beef">
+                        <div class="text-center">
+                            <h3>Beef</h3>
+                        </div>
+                        <p class="panel-body">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+                        <p>(End of Beef section)<a href="#">Back to top</a></p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-bg-4 col-bg-12">
-                <div class="box">
-                    <h4 class="ineer_box el_3">Sushi</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                </div>
-            </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="panel panel-default" id="sushi">
+                        <div class="text-center">
+                            <h3>Sushi</h3>
+                        </div>
+                        <p class="panel-body">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+                        <p>(End of Sushi section)<a href="#">Back to top</a></p>
+                    </div>
+                </div>  
+            </div> 
         </div>
     </body>
 </html>
