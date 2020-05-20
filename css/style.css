@@ -12,6 +12,10 @@ body{
     border: 0;
 }
 
+.navbar-default .navbar-nav>.active>a{
+    background-color: transparent;
+}
+
 p{
     font-size: .25em;
 }
@@ -53,7 +57,7 @@ h2{
 }
 
 #nav-list .active a:hover{
-    background-color: gray;
+    background-color: lightgray;
     color: #330ac0;
 }
 
